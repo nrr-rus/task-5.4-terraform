@@ -123,7 +123,7 @@ resource "aws_route_table_association" "assoc-1" {
   route_table_id = aws_route_table.Task-5-Terraform-Routes.id
 }
 
-resource "aws_route_table_association" "assoc-1" {
+resource "aws_route_table_association" "assoc-2" {
   subnet_id      = aws_subnet.Task-5-Terraform-Subnet-2.id
   route_table_id = aws_route_table.Task-5-Terraform-Routes.id
 }
